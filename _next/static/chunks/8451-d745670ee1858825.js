@@ -2015,7 +2015,7 @@
         s = a.env.NEXT_PUBLIC_API_URL
           ? a.env.NEXT_PUBLIC_API_URL
           : o
-          ? "https://api.metadrop.com"
+          ? "api.metadrop.com"
           : "https://".concat("api-nv3a", ".onrender.com");
     },
   },

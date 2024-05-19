@@ -477,7 +477,7 @@
         i = r.env.NEXT_PUBLIC_API_URL
           ? r.env.NEXT_PUBLIC_API_URL
           : n
-          ? "https://api.metadrop.com"
+          ? "api.metadrop.com"
           : "https://".concat("api-nv3a", ".onrender.com");
     },
     76859: function (e, t, a) {

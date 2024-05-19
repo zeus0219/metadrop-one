@@ -420,7 +420,7 @@
         },
         T = (e) => {
           let { onLinkClick: t } = e,
-            { data: n } = (0, k.ZP)("/public/homepage/coins", (e) =>
+            { data: n } = (0, k.ZP)("/public/homepage/coins.json", (e) =>
               (0, N.Z)(e)
             ),
             r = (0, o.useMemo)(() => (n ? n.coins : []), [n]);

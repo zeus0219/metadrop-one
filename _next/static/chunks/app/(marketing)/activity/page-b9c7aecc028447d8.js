@@ -224,7 +224,7 @@
             isLoading: S,
             error: R,
           } = (0, u.ZP)(
-            "/public/homepage/coins?page="
+            "/public/homepage/coins.json?page="
               .concat(x, "&limit=")
               .concat(g)
               .concat(

@@ -35,7 +35,7 @@
       function v(e) {
         let { limit: t, className: a } = e,
           { data: c } = (0, A.ZP)(
-            "/public/coins?".concat(t ? "limit=".concat(t) : ""),
+            "/public/coins.json?".concat(t ? "limit=".concat(t) : ""),
             async (e) => {
               let { coins: t } = await (0, l.Z)(e, { throwOnHTTPError: !1 });
               return {
